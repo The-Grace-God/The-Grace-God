@@ -1,1 +1,1 @@
-hello this is just the code for the website so just go to the site instead
+welcome to my garbage profile i dont have anything intresting and mostly create unimpressive stuff
