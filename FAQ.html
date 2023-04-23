@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FAQ</title>
+<style>
+body {
+    background-color: #222222;
+    color: #e6dedc;
+    padding: 1em;
+}
+@font-face {
+  font-family: "digi";
+  src: url('Digital-Serial-ExtraBold.ttf') format("truetype");
+}
+.topnav {
+  font-family: "digi";
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.sticky {
+  position: fixed;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: black;
+}
+a:link {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+<!--nav bar-->
+<div class="topnav">
+<a href="index.html"  class="nav-hidden-aria">Main Page  </a>
+
+<a href="AAqua.html" class="nav-a">AAqua  </a>
+
+<a href="grace.html" class="nav-a">Grace  </a>
+
+<a href="yugoslavia.html" class="nav-a">Yugoslavia  </a>
+
+<a href="yuz.html" class="nav-a">John  </a>
+
+<a href="FAQ.html" class="nav-a" >FAQ  </a>
+        </div>
+      </div>
+      <div class="nav-right">
+      </div>
+    </div>
+<!--nav bar-->
+<!--shit collapsable ui-->
+
+<p>Questions you may have:</p>
+<button type="button" class="collapsible">Who is "The_Grace_God".</button>
+<div class="content">
+  <p>The_Grace_God is a name I got after I started putting <img src="grace.png" height="20px"> grace over everything that I was able to get my hands on (digitally).  The problem was that some people didn't like it which is where the tormenting part comes in.  I started doing it to only the people that were fine with it but still kind of hated it.  I did this stuff to themes, websites, and even android applications.  I still do this stuff to this day but not as often but there is a chance something of your will get graced.</p>
+</div>
+<button type="button" class="collapsible">Who is AAqua.</button>
+<div class="content">
+  <p>AAqua is a person that I originally started the gracing with as I found a file in a skin for USC (Unnamed Sound voltex Clone) called Expiremental Gear and I found a file called grace.png and I started making jokes off of it then said "What if I grace this" and we started working on the theme its know as today as <a href="https://github.com/The-Grace-God/ExceedGrace" class="nav-a">Exceed Grace</a>. This theme isnt activly updated anymore as i have just dont have a way to test it anymore.</p>
+</div>
+<button type="button" class="collapsible">When am I mostly active.</button>
+<div class="content">
+  <p>Its mainly around summertime as thats when I have the most free time.</p>
+</div>
+<button type="button" class="collapsible">What do I work on the most.</button>
+<div class="content">
+  <p>I am mostly working on anything rythmn game related as thats what im usally spending my time on rythmn games (Mostly <a href="https://noti.tg" class="nav-a">NotITG</a>).</p>
+</div>
+<button type="button" class="collapsible">What made me make a website.</button>
+<div class="content">
+  <p><a href="https://yugoslavia.best" class="nav-a">Yugoslavia</a> as i found out through the site that i could host one for free so thats what i did</p>
+</div>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var I;
+
+for (I = 0; I < coll.length; I++) {
+  coll[I].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+<!--shit collapsable ui-->
+
+</body>
+</html>
